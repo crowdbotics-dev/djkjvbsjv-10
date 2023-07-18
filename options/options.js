@@ -1,10 +1,11 @@
 export const globalOptions = {
-  name: "djkjvbsjv-10",
-  url: "https://djkjvbsjv-10.botics.co",
-  api: "https://djkjvbsjv-10.botics.co/api/v1",
-  screenOptions: {
-    headerShown: false
-  }
+  "name": "djkjvbsjv-10",
+  "url": "https://djkjvbsjv-10.botics.co",
+  "api": "https://djkjvbsjv-10.botics.co/api/v1",
+  "screenOptions": {
+    "headerShown": false
+  },
+  "initialRoute": "welcome"
 };
 export const modulesOptions = {
   "@modules/app-menu": {
