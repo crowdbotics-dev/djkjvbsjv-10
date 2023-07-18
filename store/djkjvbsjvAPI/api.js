@@ -59,6 +59,18 @@ function modules_social_auth_socialaccounts_disconnect_create(payload) {
     payload
   )
 }
+function modules_zoominfo_auth_token_create(payload) {
+  return djkjvbsjvAPI.post(`/modules/zoominfo/auth/token/`)
+}
+function modules_zoominfo_data_bulk_create(payload) {
+  return djkjvbsjvAPI.post(`/modules/zoominfo/data/bulk/`)
+}
+function modules_zoominfo_data_enrich_create(payload) {
+  return djkjvbsjvAPI.post(`/modules/zoominfo/data/enrich/`)
+}
+function modules_zoominfo_data_search_create(payload) {
+  return djkjvbsjvAPI.post(`/modules/zoominfo/data/search/`)
+}
 function rest_auth_login_create(payload) {
   return djkjvbsjvAPI.post(`/rest-auth/login/`, payload)
 }
@@ -110,6 +122,10 @@ export const apiService = {
   modules_social_auth_google_login_create,
   modules_social_auth_socialaccounts_list,
   modules_social_auth_socialaccounts_disconnect_create,
+  modules_zoominfo_auth_token_create,
+  modules_zoominfo_data_bulk_create,
+  modules_zoominfo_data_enrich_create,
+  modules_zoominfo_data_search_create,
   rest_auth_login_create,
   rest_auth_logout_retrieve,
   rest_auth_logout_create,
