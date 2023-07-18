@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0f8c43a818d1ba0bc429e9af48bac9c339a2cd60fea99ff3b6469d5e24480616"
+            "sha256": "266b064ec715e2a1452f70e4dfb453f235c5369fe804a065a2c5cdf10d43bb84"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -63,6 +63,10 @@
         "cb-django-social-auth": {
             "editable": true,
             "path": "./modules/django_social_auth"
+        },
+        "cb-zoom-info": {
+            "editable": true,
+            "path": "./modules/django_zoom_info"
         },
         "certifi": {
             "hashes": [
