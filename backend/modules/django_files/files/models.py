@@ -36,3 +36,4 @@ class FileUpload(models.Model):
 
     def __str__(self):
         return f"{self.user} - {self.title} | {self.size} | {self.created_at}"
+
